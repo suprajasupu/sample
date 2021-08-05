@@ -8,7 +8,16 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		System.out.println("Hello world")
+		String exampleString = "This is just a sample string";
+                int stringLength = exampleString.length();
+		if (stringLength > 0)
+		{
+		System.out.println("String exists");
+		}
+		else
+		{
+		System.out.println("String doesnot exits");
+		}
 	}
 
 }
