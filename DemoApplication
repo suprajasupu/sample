@@ -14,10 +14,6 @@ public class DemoApplication {
 		{
 		System.out.println("String exists");
 		}
-		else
-		{
-		System.out.println("String doesnot exits");
-		}
 	}
 
 }
